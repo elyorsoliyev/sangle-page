@@ -1,0 +1,354 @@
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* plus-jakarta-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    font-size: 62.5%;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    display: flex;
+
+}
+
+body{
+  height: 100%;
+  font-family:"Plus Jakarta Sans",sans-serif;
+  
+}
+
+.container {
+  width: 100%;
+  max-width: 1211px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.header {
+  margin-bottom: 3.3rem;
+}
+.header__container {
+  padding-top: 3.4rem;
+}
+ 
+.sitenav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site__link {
+   font-size: 1.6rem;
+   font-weight: 700;
+   line-height: 1.75;
+   color: #FFF7F0;
+   background-color: #030303;
+   padding: 1.4rem 4.5rem;
+   border-radius: 2.8rem;
+   transition: 0.3s;
+}
+.site__link:hover{
+  color: #030303;
+  background-color: #4db54d;
+}
+
+.design {
+  padding-top: 3.3rem;
+  margin-bottom: 4rem;
+}
+.design__container {
+}
+
+.design__wrapper {
+  width: 100%;
+  max-width: 751px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.design__title {
+  font-size: 5.6rem;
+  font-weight: 700;
+  color: #030303;
+  margin-bottom: 2.3rem;
+}
+.design__text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.55;
+  color: #7A746E;
+}
+
+.hero {
+  padding-top: 4rem;
+}
+.hero__container {
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero-item {
+  width: 100%;
+  max-width: 354px;
+  height: 364px;
+  border-radius: 8px;
+  background: #755cde;
+}
+
+.hero-grapx-img {
+  margin-top: 24px;
+  margin-left: 202px;
+  margin-bottom: 94px;
+}
+
+.hero-item-title {
+  color: #fff7f0;
+  margin-left: 24px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-apps-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: 354px;
+  height: 158px;
+  margin-bottom: 26px;
+}
+
+.ux-wrapper {
+  width: 164px;
+  height: 182px;
+  border-radius: 8px;
+  background: #f6a560;
+}
+
+.ux-wrapper img {
+  margin-top: 24px;
+  margin-left: 75px;
+  margin-bottom: 40px;
+}
+
+.ui-text {
+  color: #fff7f0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 24px;
+}
+
+.app-wrapper {
+  width: 164px;
+  height: 182px;
+  border-radius: 8px;
+  background: #f39e9e;
+}
+
+.app-wrapper img {
+  margin-top: 24px;
+  margin-left: 75px;
+  margin-bottom: 40px;
+}
+
+.illustration-wrapper {
+  width: 354px;
+  height: 158px;
+  border-radius: 8px;
+  background: #eb7565;
+}
+
+.illustration-wrapper img {
+  margin-top: 24px;
+  margin-left: 200px;
+  margin-bottom: 16px;
+}
+
+.photography-wrapper {
+  border-radius: 8px;
+  background: #61c4b7;
+  width: 354px;
+  height: 182px;
+  margin-bottom: 24px;
+}
+
+.photography-wrapper img {
+  margin-top: 24px;
+  margin-left: 170px;
+  margin-bottom: 40px;
+}
+
+.moution-wrapper {
+  width: 354px;
+  height: 158px;
+  border-radius: 8px;
+  background: #552049;
+}
+
+.moution-wrapper img {
+  margin-top: 24px;
+  margin-left: 202px;
+  margin-bottom: 16px;
+}
+
+.about {
+  padding-top: 13.6rem;
+  padding-bottom: 88px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-wrapper {
+  width: 100%;
+  max-width: 540px;
+  height: 306px;
+}
+
+.about-title {
+  color: #030303;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 34px;
+}
+
+.about-desc {
+  color: #7a746e;
+  font-feature-settings: "clig" off, "liga" off;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.about-link {
+  border-radius: 28px;
+  background:#eb7565;
+  padding: 14px 45px;
+  color:#fff7f0;
+  font-weight: 700;
+}
+
+
+.portfolio {
+  display: flex;
+  max-width: 2820px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+.portfolio-title {
+  text-align: center;
+  color: #030303;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact {
+  padding-bottom: 60px;
+  padding-top: 88px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #030303;
+  color:  #fff7f0;
+  padding-top: 80px;
+  padding-right: 95px;
+  padding-left: 65px;
+  padding-bottom: 80px;
+}
+
+.contact-wrapper {
+  width: 100%;
+  max-width: 540px;
+}
+
+.contact-title {
+  color:  #fff7f0;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+.contact-desc {
+  color: #fff7f0;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.contact-btn {
+  border-radius: 28px;
+  background:#eb7565;
+  padding: 14px 45px;
+  color: #fff7f0;
+}
+
+footer {
+  padding-bottom: 66px;
+}
+
+
+
